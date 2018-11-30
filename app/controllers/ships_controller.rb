@@ -40,13 +40,14 @@ class ShipsController < ProtectedController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_ship
-      @ship = current_user.ships.find(params[:id])
-    end
 
-    # Only allow a trusted parameter "white list" through.
-    def ship_params
-      params.require(:ship).permit(:name, :pilot, :notes, :like)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_ship
+    @ship = current_user.ships.find(params[:id])
+  end
+
+  # Only allow a trusted parameter "white list" through.
+  def ship_params
+    params.require(:ship).permit(:name, :pilot, :notes, :like)
+  end
 end
