@@ -6,9 +6,9 @@ In it's current state users can simply CRUD their collection by using input fiel
 
 A future iteration of the site would allow users to view all available ships, pilots, upgrades, released sets and select whether or not they own them. That data, though not currently accessible via requests to an API, comes courtesy of [this repo](https://github.com/guidokessels/xwing-data).
 
-[Deployed API](https://github.com/TomG84/project-4-api)
+[Deployed API](https://ancient-headland-25420.herokuapp.com/)
 
-[Deployed Client](https://tomg84.github.io/project-4-cl…)
+[Deployed Client](https://tomg84.github.io/project-4-client/#/)
 
 [Client Repo](https://github.com/TomG84/project-4-client)
 
@@ -37,7 +37,7 @@ A future iteration of the site would allow users to view all available ships, pi
 * React
 * Bootsrap via reactstrap
 * Fetch for http requests to API for User Auth
-* Axios for http requests to API for Collection Management
+* Axios for http requests to API for Ship resource
 * JavaScript
 * HTML5
 * CSS3
@@ -64,7 +64,7 @@ The scope of this project is ambitious and I have a long way to go. Below is a l
 
 #### Entity Relationship
 
-![ERD](https://imgur.com/dN6Mwjn "v1.0 ERD")
+![ERD](https://i.imgur.com/dN6Mwjn.jpg)
 
 User has many Ships.
 Ships belong to User.
